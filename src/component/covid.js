@@ -121,7 +121,7 @@ const Covid = () => {
                 </p>
                 <p
                   className="card__total card__small"
-                  style={{ fontSize: 50, fontWeight: 600, margin: -10 }}
+                  style={{ fontSize:50, fontWeight: 600, margin: -10 }}
                 >
                  {data.vaccinated1}
                 </p>
