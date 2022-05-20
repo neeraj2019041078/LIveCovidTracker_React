@@ -22,8 +22,7 @@ const Covid = () => {
 
     } catch (err) {
       console.log(err);
-    }
-  };
+    } };
 
   useEffect(() => {
     getCovidData();
@@ -32,7 +31,7 @@ const Covid = () => {
   return (
     <>
       <h1 style={{ textAlign: "center" }}> 🔴 Live Now</h1>
-      <h2 style={{ textAlign: "center" }}> Covid -19 Coronavirus Tracker</h2>
+      <h2 style={{ textAlign: "center" ,fontSize:50 }}> Covid -19 Coronavirus Tracker</h2>
         <ul style={{ listStyleType: "None" }}>
       <section style={{display:"flex"}}>
           <li className="card">
